@@ -5,6 +5,8 @@ body {
   flex-direction: column;
   font-family: "Roboto";
   margin: 0px;
+  justify-items: stretch;
+  height: 100vh;
 }
 
 .header,
@@ -39,6 +41,7 @@ body {
 .header {
   justify-content: space-between;
   padding-bottom: 100px;
+  flex: 1;
 }
 
 .websiteinfo {
@@ -49,6 +52,7 @@ body {
   align-items: center;
 
   padding-bottom: 100px;
+  flex: 1;
 }
 .leftbox,
 .rightbox {
@@ -141,6 +145,7 @@ body {
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 50px;
+  flex: 1;
 }
 
 .infotext {
@@ -187,6 +192,7 @@ body {
   background-color: #e5e7eb;
   padding-top: 50px;
   padding-bottom: 50px;
+  flex: 1;
 }
 .quotetext {
   justify-content: center;
@@ -215,6 +221,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
+  flex: 1;
 }
 
 .signupbox {
@@ -254,6 +261,7 @@ body {
   font-family: "Roboto";
   color: #e5e7eb;
   border-style: none;
+  flex: 1;
 }
 a {
   color: #e5e7eb;
